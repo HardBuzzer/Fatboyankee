@@ -3,7 +3,7 @@ Fatboyankee by HardBuzzer(Cheat for RustClient)(In DEVELOPMENT!!!)
 
 But... I'm Make RustSDK.hpp
 
-'''cpp
+```cpp
 #pragma once
 
 #include "ConnectIL2CPP.h"
@@ -152,4 +152,4 @@ void* GetBasePlayer()
 		   game_obj->CallMethod<float>(""); //Method :D
 	   }
    }
-   '''cpp
+   ```
