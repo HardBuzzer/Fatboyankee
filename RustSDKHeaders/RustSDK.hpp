@@ -143,6 +143,6 @@ void* GetBasePlayer()
    namespace RustSDKCheat {
 	   void InitNoRecoil() {
 		   CGameObject* game_obj = Unity::GameObject::Find("BasePlayer");
-		   game_obj->CallMethod<float>(""); //Method :D
+		   game_obj->CallMethod<bool>("GetRecoil", true); //GetRecoil for Initialization RecoilProperties :D
 	   }
    }
