@@ -152,4 +152,4 @@ void* GetBasePlayer()
 		   game_obj->CallMethod<float>(""); //Method :D
 	   }
    }
-   '''
+   '''cpp
