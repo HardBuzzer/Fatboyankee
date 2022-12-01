@@ -192,7 +192,7 @@ float RedColor(float red_color) {
 	return vec.color_unity->r = red_color;
 }
 float GreenColor(float green_color) {
-	return vec.color_unity->b = green_color;
+	return vec.color_unity->g = green_color;
 }
 float AlphaBlend(float alphablend) {
 	return vec.color_unity->a = alphablend;
